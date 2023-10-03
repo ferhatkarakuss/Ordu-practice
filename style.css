@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+header {
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(images/ordu.png);
+  border-bottom: 2px solid #101f72;
+}
+
+.heading-wrapper {
+  width: 480px;
+  height: 100px;
+  border-radius: 15px;
+  position: relative;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  left: 10px;
+  opacity: 1;
+}
+
+.heading-wrapper h1 {
+  font-size: 80px;
+  letter-spacing: 20px;
+}
+
+.heading-wrapper h2 {
+  position: relative;
+  font-size: 42px;
+  color: white;
+  bottom: 25px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.content p {
+  font-size: 24px;
+}
+
+.main {
+  background-color: #d3d3d3;
+  height: 40vh;
+  text-align: center;
+}
+
+.main h3 {
+  font-size: 28px;
+  color: #252525;
+}
+
+.content1 img {
+  width: 250px;
+  border-radius: 40px;
+}
+
+.content2 img {
+  width: 250px;
+  border-radius: 40px;
+}
+
+.content3 img {
+  width: 250px;
+  border-radius: 40px;
+}
